@@ -1,0 +1,112 @@
+@charset "ISO-8859-1";
+.slider{
+    position: absolute;
+    width: 40px;
+    height: 300px;
+    background: white;
+    top: 30px;
+    left: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.slider:hover{
+        transition: .5s ease ;
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    background: white;
+    top: 30px;
+    left: 10px;
+    border-radius: 20px;
+}
+.buttons1 a{
+    position: absolute;
+    top:40px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding-left: 40px;
+    font-size: large;
+
+}
+.buttons1 ion-icon{
+    position: absolute;
+    top: 30px;
+    padding-left: 6px;
+    font-size:30px;
+}
+
+.buttons2 a{
+    position: absolute;
+    top:140px;
+    width: 190px;
+    height: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding-left: 40px;
+    font-size: large;
+
+}
+.buttons2 ion-icon{
+    position: absolute;
+    top: 130px;
+    padding-left: 6px;
+    font-size:30px;
+}
+
+.buttons3 a{
+    position: absolute;
+    top:240px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding-left: 40px;
+    font-size: large;
+
+}
+.buttons3 ion-icon{
+    position: absolute;
+    top: 230px;
+    padding-left: 6px;
+    font-size:30px;
+}
+.notification a{
+    position: absolute;
+    top:190px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding-left: 40px;
+    font-size: large;
+
+}
+.notification ion-icon{
+    position: absolute;
+    top: 180px;
+    padding-left: 6px;
+    font-size:30px;
+}
+.profile a{
+    position: absolute;
+    top:90px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding-left: 40px;
+    font-size: large;
+}
+.profile ion-icon{
+    position: absolute;
+    top: 80px;
+    padding-left: 6px;
+    font-size:30px;
+}

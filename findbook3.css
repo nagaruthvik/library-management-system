@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: white;
+}
+.continer{
+    position: absolute;
+    right:15px;
+    width: 100%;
+    height: 100%;
+    bottom: 15px;
+
+}
+.continer .box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    float: top;
+    margin: 15px;
+    background: linear-gradient(lightsalmon,salmon);
+
+}
+
+.box1 {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: whitesmoke;
+    top: 100px;
+    left: 100px;
+
+    border-radius: 20px;
+}
+
+
+.entry1 input{
+    position: absolute;
+    border-radius: 1px;
+
+    top: 120px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    left: 300px;
+
+}
+.book_name h3{
+    position: absolute;
+    top:80px;
+    left:300px;
+
+}
+.book_name h4{
+    position: absolute;
+    top:130px;
+    left:300px;
+
+}
+
+.book_row h3{
+    position: absolute;
+    
+    top:280px;
+    left:300px;
+
+}
+.book_row h4{
+    position: absolute;
+    
+    top:320px;
+    left:300px;
+
+}
+.book_self h3{
+    position: absolute;
+    top:180px;
+    left:300px;
+
+}
+.book_self h4{
+    position: absolute;
+    top:220px;
+    left:300px;
+
+}
+
+.book_avil h3{
+	position:absolute;
+	top:370px;
+    left:300px;
+}
+.book_avil h4{
+	position:absolute;
+	top:410px;
+    left:300px;
+}
+.self_box{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    right:20px;
+    background-color: #7e9a81;
+    top:107px;
+}
+.self_box1{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    right:25px;
+    background-color: white;
+    top:25px;
+}
+.self_box2{
+    position: absolute;
+    width: 330px;
+    height: 130px;
+    right:10px;
+    background-color: #FFE5B4;
+    top:20px;
+}
+.self_box3{
+    position: absolute;
+    width: 330px;
+    height: 130px;
+    right:1px;
+    background-color: #FFE5B4;
+    top:150px;
+}
+.self_box4 {
+    position: absolute;
+    width: 330px;
+    height: 130px;
+    right:1px;
+    background-color: #FFE5B4;
+    top:140px;
+}

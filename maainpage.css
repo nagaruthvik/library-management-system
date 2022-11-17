@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+body{
+    background-image : url("luisa-brimble-VfHoMBagDPc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-dodge;
+
+}
+html,body{
+
+    display: grid;
+    height: 100%;
+    place-items: center;
+
+}
+.button a{
+   position: absolute;
+   top:400px;
+    height: 40px;
+    width: 180px ;
+    border-radius: 80px;
+    left: 500px;
+    text-decoration: none;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    letter-spacing: 10px;
+    background:black;
+    color: white;
+}
+.button1 a{
+    position: absolute;
+    top:400px;
+    height: 40px;
+    width: 180px ;
+    border-radius: 80px;
+    left: 800px;
+    text-decoration: none;
+    padding-left: 50px;
+
+    padding-bottom: 10px;
+    padding-top: 20px;
+    letter-spacing: 10px;
+    background:black;
+    color: white;
+}
+h2{
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    background-color: white;
+}
+.button a:hover{
+    background: white;
+    color: black;
+}
+.button1 a:hover{
+    background: white;
+    color: black;
+}

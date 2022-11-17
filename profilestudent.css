@@ -1,0 +1,206 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: white;
+}
+.continer{
+    position: absolute;
+    right:15px;
+    width: 100%;
+    height: 100%;
+    bottom: 15px;
+
+}
+.continer .box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#583BC5,#945EE8,#C19ABB);
+    float: top;
+    margin: 15px;
+
+}
+.box1 {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: whitesmoke;
+    top: 150px;
+    right: 380px;
+
+    border-radius: 20px;
+}
+.button1 a{
+    position: absolute;
+    background-color: #945EE8;
+    color:white;
+    width: 250px;
+    height: 60px;
+    top: 150px;
+    right: 250px;
+    border-width: 0px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+.button2 a{
+    position: absolute;
+    background-color: #945EE8;
+    color:white;
+    width: 250px;
+    height: 60px;
+    top: 250px;
+    right: 250px;
+    border-width: 0px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+.button1 a:hover{
+    position: absolute;
+    background-color: #583BC5;
+}
+.button2 input:hover{
+    position: absolute;
+    background-color: #583BC5;
+}
+
+.slider{
+    position: absolute;
+    width: 40px;
+    height: 330px;
+    background: white;
+    top: 30px;
+    left: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.slider:hover{
+    transition: .5s ease ;
+    position: absolute;
+    width: 180px;
+    height: 330px;
+    background: white;
+    top: 30px;
+    left: 10px;
+    border-radius: 20px;
+}
+.buttons1 a{
+    position: absolute;
+    top:40px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding-left: 40px;
+    font-size: large;
+
+}
+.buttons1 ion-icon{
+    position: absolute;
+    top: 30px;
+    padding-left: 6px;
+    font-size:30px;
+}
+
+.buttons2 a{
+    position: absolute;
+    top:140px;
+    width: 190px;
+    height: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding-left: 40px;
+    font-size: large;
+
+}
+.buttons2 ion-icon{
+    position: absolute;
+    top: 130px;
+    padding-left: 6px;
+    font-size:30px;
+}
+
+.buttons3 a{
+    position: absolute;
+    top:275px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding-left: 40px;
+    font-size: large;
+
+}
+.buttons3 ion-icon{
+    position: absolute;
+    top: 270px;
+    padding-left: 6px;
+    font-size:30px;
+}
+.notification a{
+    position: absolute;
+    top:190px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding-left: 40px;
+    font-size: large;
+
+}
+.notification ion-icon{
+    position: absolute;
+    top: 180px;
+    padding-left: 6px;
+    font-size:30px;
+}
+.profile a{
+    position: absolute;
+    top:90px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding-left: 40px;
+    font-size: large;
+}
+.profile ion-icon{
+    position: absolute;
+    top: 80px;
+    padding-left: 6px;
+    font-size:30px;
+}
+.return a{
+	position: absolute;
+    top:235px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding-left: 40px;
+    font-size: large;
+	
+}
+.return ion-icon{
+	position: absolute;
+    top: 230px;
+    padding-left: 6px;
+    font-size:30px;
+    
+}

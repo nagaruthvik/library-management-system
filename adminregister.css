@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: #7e9a81;
+}
+.continer{
+    position: relative;
+
+    width: 1200px;
+    height: 700px;
+    margin: 30px auto;
+
+}
+.continer .box{
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    background: white;
+    float: top;
+    margin: 15px;
+    bottom: 70px;
+    right: 280px;
+    border-radius: 10px;
+}
+
+
+.entry1 input{
+    position: absolute;
+    border-radius: 1px;
+
+    top: 130px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    left:170px;
+
+}
+.entry1 h3{
+    position: absolute;
+    top:100px;
+    left: 170px;
+}
+.entry2 h3{
+    position: absolute;
+    top:180px;
+    left: 170px;
+}
+.entry3 h3{
+    position: absolute;
+    top:260px;
+    left: 170px;
+}
+
+.entry2 input{
+    position: absolute;
+    border-radius: 1px;
+
+    top: 210px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    left: 170px;
+}
+.entry3 input{
+    position: absolute;
+    border-radius: 1px;
+
+    top: 300px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    left: 170px;
+}
+
+.buttons input{
+    position: absolute;
+    border-radius: 1px;
+    top: 450px;
+    left: 170px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background:#7e9a81;
+    color: white;
+    border-width: 0px;
+}
+
+.new a{
+    position: absolute;
+    color: black;
+    left: 260px;
+    top: 500px;
+    text-decoration: none;
+}
+.verify h3{
+    position: absolute;
+    top:380px;
+    left: 510px;
+}
+.verify input{
+    position: absolute;
+    border-radius: 1px;
+    top: 420px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    left: 510px;
+}

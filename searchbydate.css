@@ -1,0 +1,102 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: white;
+}
+.continer{
+    position: absolute;
+    right:15px;
+    width: 100%;
+    height: 100%;
+    bottom: 15px;
+
+}
+.continer .box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    float: top;
+    margin: 15px;
+
+}
+.box {
+    background:linear-gradient(skyblue,yellow);
+}
+.box1 {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: whitesmoke;
+    top: 150px;
+    right: 340px;
+
+    border-radius: 20px;
+}
+
+
+
+.entry1 input{
+    position: absolute;
+    border-radius: 1px;
+
+    top: 120px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    left: 300px;
+
+}
+.entry1 h3{
+    position: absolute;
+    top:90px;
+    left: 300px;
+
+}
+.entry2 h3{
+    position: absolute;
+    top:240px;
+    left: 300px;
+
+}
+.entry2 input{
+    position: absolute;
+    border-radius: 1px;
+
+    top: 270px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    left: 300px;
+}
+
+.buttons input{
+    position: absolute;
+    border-radius: 1px;
+    top: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #355c7d;
+    color: white;
+    border-width: 0px;
+    left: 300px;
+}
+.buttons input:hover{
+    background: #6c5b7b;
+    background-size: 400%;
+    color: white;
+}
+
